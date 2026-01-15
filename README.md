@@ -1,4 +1,4 @@
-Transcritor Opus
+**Transcritor Opus**
 
 Esse é um programinha para a transcrição de arquivos de áudio gerados pelo WhatsApp (.opus).
 
