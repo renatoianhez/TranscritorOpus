@@ -45,6 +45,7 @@
             lblStatus = new Label();
             progressBar = new ProgressBar();
             btnRemover = new Button();
+            button1 = new Button();
             grpSaida.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numThreads).BeginInit();
             SuspendLayout();
@@ -202,11 +203,22 @@
             btnRemover.Text = "Excluir arquivos";
             btnRemover.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(535, 365);
+            button1.Name = "button1";
+            button1.Size = new Size(62, 25);
+            button1.TabIndex = 12;
+            button1.Text = "Sobre...";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(608, 624);
+            Controls.Add(button1);
             Controls.Add(btnRemover);
             Controls.Add(progressBar);
             Controls.Add(lblStatus);
@@ -247,5 +259,6 @@
         private Button btnSelecionarDestino;
         private TextBox txtCaminhoDestino;
         private Button btnRemover;
+        private Button button1;
     }
 }
