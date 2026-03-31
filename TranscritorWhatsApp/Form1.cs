@@ -266,5 +266,13 @@ namespace TranscritorWhatsApp
             grpSaida.Enabled = enabled;
             if (enabled) AlternarModoSalvamento();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desenvolvido em janeiro de 2026\n" + 
+                "por Renato Ianhez\n" +
+                "Perito Criminal PCMG - STRC Patos de Minas\n" +
+                "renatoia@terra.com.br", "Transcritor Opus", MessageBoxButtons.OK);
+        }
     }
 }
